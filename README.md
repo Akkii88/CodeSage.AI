@@ -22,6 +22,19 @@
 
 ---
 
+## Screenshots
+
+<p align="center">
+  <img src="Dashboard_Images/1.png" width="45%">
+  <img src="Dashboard_Images/2.png" width="45%"><br>
+  <img src="Dashboard_Images/3.png" width="45%">
+  <img src="Dashboard_Images/4.png" width="45%"><br>
+  <img src="Dashboard_Images/5.png" width="45%">
+  <img src="Dashboard_Images/6.png" width="45%">
+</p>
+
+---
+
 ## Architecture
 
 ### High-Level Flow
@@ -38,6 +51,9 @@ flowchart TD
     H --> I[Merge Findings]
     I --> J[Risk Scoring + Dashboard]
     J --> K[Display Results in UI]
+
+    classDef default fill:#1e1e1e,color:#d4d4d4,stroke:#4ec9b0
+    class A,B,C,D,E,F,G,H,I,J,K default
 ```
 
 ### Detailed Analysis Pipeline
@@ -59,6 +75,11 @@ flowchart LR
     C --> B1
     B3 --> D[Merge + Deduplicate]
     D --> E[Generate Report]
+
+    classDef static fill:#2d2d2d,color:#4ec9b0,stroke:#4ec9b0
+    classDef llm fill:#1e1e1e,color:#dcdcaa,stroke:#dcdcaa
+    class A1,A2,A3,A4 static
+    class B1,B2,B3 llm
 ```
 
 ---
