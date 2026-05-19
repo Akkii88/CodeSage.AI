@@ -25,12 +25,12 @@
 ## Screenshots
 
 <p align="center">
-  <img src="Dashboard_Images/1.png" width="45%">
-  <img src="Dashboard_Images/2.png" width="45%"><br>
-  <img src="Dashboard_Images/3.png" width="45%">
-  <img src="Dashboard_Images/4.png" width="45%"><br>
-  <img src="Dashboard_Images/5.png" width="45%">
-  <img src="Dashboard_Images/6.png" width="45%">
+  <img src="Dashboard_Images/1.png"><br>
+  <img src="Dashboard_Images/2.png"><br>
+  <img src="Dashboard_Images/3.png"><br>
+  <img src="Dashboard_Images/4.png"><br>
+  <img src="Dashboard_Images/5.png"><br>
+  <img src="Dashboard_Images/6.png">
 </p>
 
 ---
